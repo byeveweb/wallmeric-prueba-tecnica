@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="modal">
+        <h1><a href="#" id="modal">>>Pulsa aquí para abrir la modal</a>
+        </h1>
+        <div class="modalDialog">
+            <div class="formulario-modal">
+                <div class="close">X</div>
+
+                <!--formulario-->
+                <form id="formulario" method="POST" action="datos.php">
+                    <div class="form-group">
+                        <label for="nombre">nombre</label>
+                        <input type="nombre" name="nombre" class="form-control">
+                        <!-- <span></span> -->
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="form-control">
+                        <!-- <span></span> -->
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" class="form-control">
+                        <!-- <span></span> -->
+                    </div>
+                    <button class="btn" type="submit">Enviar</button>
+                </form>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="tupid"></div>
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="modal.js"></script>
+
+</body>
+
+
+
+</html>
